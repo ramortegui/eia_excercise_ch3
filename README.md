@@ -20,4 +20,11 @@ list_len([1,2,3,4)]
 EiaPractice has a function that receive a two integer and create a list of the values in the range.
 range(1,3)
 
+#Excercise three
+#positives
+
+Given an list of number, return a new list of positive numbers (recursive)
+
+positives([1,2,-1,4])
+
 

@@ -20,4 +20,20 @@ defmodule EiaPractice do
   def range([head|tail],_,_) do
     [head|tail] 
   end
+
+  #Return a new list only with positive number
+  def positives(list), do: positives(list,[])
+
+  def positives(list,acumula) do
+    case list do
+      [] -> acumula 
+      [h|t] ->
+        if h >= 0 do
+          positives(t, acumula++[h])
+        else
+          positives(t,acumula)
+        end
+    end
+  end
+
 end
