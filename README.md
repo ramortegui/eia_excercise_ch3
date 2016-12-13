@@ -1,24 +1,15 @@
 # EiaPractice
 
-**TODO: Add description**
+Excercises of the ook Elixir in action
 
-## Installation
+## Recursive function
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
 
-  1. Add `eia_practice` to your list of dependencies in `mix.exs`:
+#Excercise one 
 
-    ```elixir
-    def deps do
-      [{:eia_practice, "~> 0.1.0"}]
-    end
-    ```
+EiaPractice has two different recursive function to calculate the length of an array.
 
-  2. Ensure `eia_practice` is started before your application:
+The firstone list_len is a normal approach.
+The secondone tail_rec_len is a better approach called tail function calls, in order improve memory resources, as isn't using aditional memory.
 
-    ```elixir
-    def application do
-      [applications: [:eia_practice]]
-    end
-    ```
 
